@@ -2,97 +2,72 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="#000000" />
-    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="./assets/css/lib/weather-icons.css" rel="stylesheet" />
+    <link href="./assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
+    <link href="./assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="./assets/css/lib/font-awesome.min.css" rel="stylesheet" />
+    <link href="./assets/css/lib/themify-icons.css" rel="stylesheet" />
+    <link href="./assets/css/lib/menubar/sidebar.css" rel="stylesheet" />
+    <link href="./assets/css/lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/lib/helper.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
 
-    <link href="assets/css/lib/owl.carousel.min.css" rel="stylesheet" />
-    <link href="assets/css/lib/owl.theme.default.min.css" rel="stylesheet" />
-    <link href="assets/css/lib/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/lib/themify-icons.css" rel="stylesheet" />
-    <link href="assets/css/lib/menubar/sidebar.css" rel="stylesheet" />
-    <link href="assets/css/lib/bootstrap.min.css" rel="stylesheet" />
-
-    <link href="assets/css/lib/helper.css" rel="stylesheet" />
-    <link href="assets/css/style.css" rel="stylesheet" />
-
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
+      integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <script src="assets/js/lib/jquery.min.js"></script>
-    <script src="assets/js/lib/jquery.nanoscroller.min.js"></script>
+
+    <script src="./assets/js/lib/jquery.min.js"></script>
+    <script src="./assets/js/lib/jquery.nanoscroller.min.js"></script>
     <!-- nano scroller -->
-    <script src="assets/js/lib/menubar/sidebar.js"></script>
-    <script src="assets/js/lib/preloader/pace.min.js"></script>
+    <script src="./assets/js/lib/menubar/sidebar.js"></script>
+    <script src="./assets/js/lib/preloader/pace.min.js"></script>
     <!-- sidebar -->
-    <script src="assets/js/lib/bootstrap.min.js"></script>
-
-    <!-- bootstrap -->
-
-    <script src="assets/js/lib/circle-progress/circle-progress.min.js"></script>
-    <script src="assets/js/lib/circle-progress/circle-progress-init.js"></script>
-
-    <script src="assets/js/lib/morris-chart/raphael-min.js"></script>
-    <script src="assets/js/lib/morris-chart/morris.js"></script>
-    <script src="assets/js/lib/morris-chart/morris-init.js"></script>
-
-    <!--  flot-chart js -->
-    <script src="assets/js/lib/flot-chart/jquery.flot.js"></script>
-    <script src="assets/js/lib/flot-chart/jquery.flot.resize.js"></script>
-    <script src="assets/js/lib/flot-chart/flot-chart-init.js"></script>
-    <!-- // flot-chart js -->
-
-    <script src="assets/js/lib/vector-map/jquery.vmap.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/jquery.vmap.min.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/jquery.vmap.sampledata.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.world.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.algeria.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.argentina.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.brazil.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.france.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.germany.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.greece.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.iran.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.iraq.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.russia.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.tunisia.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.europe.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/country/jquery.vmap.usa.js"></script>
-    <!-- scripit init-->
-    <script src="assets/js/lib/vector-map/vector.init.js"></script>
-
-    <script src="assets/js/lib/weather/jquery.simpleWeather.min.js"></script>
-    <script src="assets/js/lib/weather/weather-init.js"></script>
-    <script src="assets/js/lib/owl-carousel/owl.carousel.min.js"></script>
-    <script src="assets/js/lib/owl-carousel/owl.carousel-init.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="./assets/js/lib/bootstrap.min.js"></script>
+    <script src="./assets/js/lib/owl-carousel/owl.carousel.min.js"></script>
+    <script src="./assets/js/lib/owl-carousel/owl.carousel-init.js"></script>
+    <script src="./assets/js/scripts.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -1,29 +1,32 @@
 import React, { Component } from "react";
-import "./Nav.css";
 class Sidebar extends Component {
   render() {
     return (
       <div>
-        <div className="nano-content">
-          <div className="logo">
-            <a href="index.html">
-              <span>TeacupExplorer</span>
-            </a>
-          </div>
-          <ul>
-            <li className="label">Main</li>
-            <li className="active">
-              <a className="sidebar-sub-toggle">
-                <i className="ti-home" />
-                Dashboard <span className="badge badge-primary">2</span>{" "}
-                <span className="sidebar-collapse-icon ti-angle-down" />
-              </a>
+        <div className="sidebar sidebar-hide-to-small sidebar-shrink sidebar-gestures">
+          <div className="nano">
+            <div className="nano-content">
+              <div className="logo">
+                <a href="index.html">
+                  <span>TeacupExplorer</span>
+                </a>
+              </div>
               <ul>
-                <li>
-                  <a href="index.html">Dashboard 1</a>
-                </li>
-                <li>
-                  <a href="index1.html">Dashboard 2</a>
+                <li className="label">Main</li>
+                <li className="active">
+                  <a className="sidebar-sub-toggle">
+                    <i className="ti-home" /> Dashboard{" "}
+                    <span className="badge badge-primary">2</span>{" "}
+                    <span className="sidebar-collapse-icon ti-angle-down" />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="index.html">Dashboard 1</a>
+                    </li>
+                    <li>
+                      <a href="index1.html">Dashboard 2</a>
+                    </li>
+                  </ul>
                 </li>
                 <li>
                   <a className="sidebar-sub-toggle">
@@ -51,8 +54,8 @@ class Sidebar extends Component {
                   </a>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </div>
     );
