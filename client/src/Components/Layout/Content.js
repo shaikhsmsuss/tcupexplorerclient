@@ -22,7 +22,7 @@ export class Content extends Component {
                     <div className="page-title">
                       <ol className="breadcrumb">
                         <li className="breadcrumb-item">
-                          <a href="#">Dashboard</a>
+                          <a href="/">Dashboard</a>
                         </li>
                         <li className="breadcrumb-item active">Home</li>
                       </ol>
@@ -31,18 +31,37 @@ export class Content extends Component {
                 </div>
               </div>
               <section id="main-content">
-                <div className="row">
-                  <div className="col-lg-12">
-                    <div className="card">
-                      <div className="stat-widget-two">
-                        <div className="stat-content">
-                          <div className="stat-text">TeacupExplorer </div>
-                          <div className="stat-digit">
-                            {" "}
-                            <i className="fa fa-folder" aria-hidden="true" />
-                          </div>
-                        </div>
-                      </div>
+                <div className="container">
+                  <div className="row">
+                    <div class="col-sm-4">
+                      <i class="fa fa-folder  fa-2x" aria-hidden="true">
+                        <p className="text">folder2</p>
+                      </i>
+                    </div>
+                    <div class="col-sm-4">
+                      <i class="fa fa-folder fa-2x" aria-hidden="true">
+                        <p className="text">folder2</p>
+                      </i>
+                    </div>
+                    <div class="col-sm-4">
+                      <i class="fa fa-folder  fa-2x" aria-hidden="true">
+                        <p className="text">folder2</p>
+                      </i>
+                    </div>
+                    <div class="col-sm-4">
+                      <i class="fa fa-folder  fa-2x" aria-hidden="true">
+                        <p className="text">folder2</p>
+                      </i>
+                    </div>
+                    <div class="col-sm-4">
+                      <i class="fa fa-folder  fa-2x" aria-hidden="true">
+                        <p className="text">folder2</p>
+                      </i>
+                    </div>
+                    <div class="col-sm-4">
+                      <i class="fa fa-folder " aria-hidden="true">
+                        <p className="text">folder2</p>
+                      </i>
                     </div>
                   </div>
                 </div>

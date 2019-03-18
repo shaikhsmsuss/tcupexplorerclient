@@ -73,6 +73,22 @@
 .icon-name {
   color: #000;
 }
+.container{
+  background: #e2e4ec;
+  margin-left: 400px;
+  padding: 40px;
+  border: 1px solid #473abb0c;
+  border-radius: 3px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  float: right;
+  width: 700px;
+  height: 400px;
+}
+#main-content{
+  float : right;
+  width : 1010px;
+  height: 400px;
+}
 /*  Opensans
 --------------- */
 .card-body {
@@ -80,12 +96,14 @@
 }
 .card {
   background: #ffffff;
-  margin: 7.5px 0;
+  margin: auto;
   padding: 20px;
   border: 1px solid #e7e7e7;
   border-radius: 3px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: 100px
 }
+
 .card-subtitle {
   font-size: 12px;
   margin: 10px 0;
@@ -700,7 +718,7 @@ a.dt-button.active:not(.disabled) {
 /*    Header
 ---------------*/
 .header {
-  background: #ffffff;
+  background: #e3e9eb;
   z-index: 990;
   margin-left: 250px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
@@ -1538,6 +1556,9 @@ footer p {
   font-weight: 900;
   display: inline-block;
 }
+.stat-content{
+  display: grid
+}
 .stat-widget-one .stat-content {
   margin-left: 30px;
   margin-top: 7px;
@@ -1554,6 +1575,7 @@ footer p {
 ---------------------------*/
 .stat-widget-two {
   text-align: center;
+  display: grid
 }
 .stat-widget-two .stat-digit {
   font-size: 1.75rem;
