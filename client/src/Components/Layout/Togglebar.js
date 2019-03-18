@@ -9,10 +9,10 @@ export class Togglebar extends Component {
     };
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick(){
-      this.setState({
-          isToggleOn : !this.state.isToggleOn
-      })
+  handleClick() {
+    this.setState({
+      isToggleOn: !this.state.isToggleOn
+    });
   }
 
   render() {

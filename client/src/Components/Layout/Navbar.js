@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-import Togglebar from "./Togglebar";
 
 const Navbar = props => (
   <div className="header">
     <div className="container-fluid">
       <div className="row">
         <div className="col-lg-12">
-          <Togglebar click={props.isToggleOn} />
           {/* <!-- <div className="float-none">
                                 <div className="logo"><a href="index.html">
                                         <span>TeacupExplorer</span></a></div>

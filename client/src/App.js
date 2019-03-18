@@ -9,7 +9,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <Sidebar click={this.props.isToggleOn} />
+        <Sidebar />
         <Content />
       </div>
     );
